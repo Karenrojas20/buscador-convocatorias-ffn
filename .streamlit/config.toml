@@ -1,0 +1,21 @@
+# Tema visual de Agencia Atenea.
+# Paleta de marca: azul oscuro #020142, azul #065094, azul violeta #5263AB,
+# naranja claro #EF7A45, naranja #E65A0F.
+#
+# Nota: Streamlit solo expone 5 colores base en el tema clásico (los de
+# abajo). El naranja (#E65A0F) se usó como color primario porque es el que
+# más contraste y "llamado a la acción" da sobre fondo blanco (botones,
+# checkboxes, barras de progreso, elementos seleccionados). El azul oscuro
+# se usó para el texto. secondaryBackgroundColor se dejó en un gris muy
+# claro (no es un color de marca) porque el sidebar y los campos de los
+# filtros necesitan quedarse neutros para que sigan siendo legibles; usar
+# ahí un color de marca saturado habría bajado el contraste de los propios
+# controles (multiselect, date_input, etc.).
+
+[theme]
+base = "light"
+primaryColor = "#E65A0F"
+backgroundColor = "#FFFFFF"
+secondaryBackgroundColor = "#F2F4F9"
+textColor = "#020142"
+font = "sans serif"

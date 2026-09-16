@@ -1,0 +1,6 @@
+streamlit>=1.41
+altair>=5.0
+requests>=2.31
+pandas>=2.2
+openpyxl>=3.1
+cryptography>=42.0
